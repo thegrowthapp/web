@@ -1,9 +1,21 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { connect } from 'react-redux'
+
+import logo from '../../assets/logo.svg'
+import '../../stylesheets/components/App.css'
+
+import { fetchUser } from '../actions/userActions'
+
+connect((store) => {
+  return {
+    user: store.user,
+  }
+})
 
 class App extends Component {
   render() {
+    const { user } = this.props
+
     return (
       <div className="App">
         <header className="App-header">
