@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import logo from '../../assets/logo.svg'
 import '../../stylesheets/components/App.css'
 
-import { fetchUser } from '../actions/userActions'
+// import { fetchUser } from '../actions/userActions'
 
 connect((store) => {
   return {
@@ -14,7 +14,7 @@ connect((store) => {
 
 class App extends Component {
   render() {
-    const { user } = this.props
+    // const { user } = this.props
 
     return (
       <div className="App">
