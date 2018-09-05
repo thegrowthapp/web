@@ -1,6 +1,6 @@
 # The Growth App (Frontend)
 
-Encourage, track & analyze personal growth. Inspired by [@johnafish](https://github.com/johnafish)'s Growth Book.
+React-Redux frontend of The Growth App. Inspired by [@johnafish](https://github.com/johnafish)'s Growth Book.
 
 **https://thegrowthapp.com**
 
