@@ -22,7 +22,7 @@
     "stylelint": "stylelint src/**/*.scss src/**/*.css"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.1.2",
     "@babel/plugin-syntax-decorators": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
